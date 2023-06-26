@@ -104,7 +104,7 @@ class _SettingsPageState extends State<SettingsPage> {
       child: MyScaffold(
           topLeftWidget: IconButton(
               icon: Icon(
-                Icons.arrow_back_ios_rounded,
+                Icons.arrow_upward,
                 color: Theme.of(context).canvasColor,
               ),
               onPressed: () => Get.back()),
